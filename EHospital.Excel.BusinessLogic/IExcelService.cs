@@ -13,6 +13,10 @@ namespace EHospital.Excel.BusinessLogic
         /// <returns> The collection of PatientView objects.</returns>
         IEnumerable<PatientInfo> GetPatients();
 
+        /// <summary>
+        /// Creates EXCEL file containing all entries in Database
+        /// </summary>
+        /// <returns>EXCEL File as Byte Array</returns>
         Byte[] CreateReport();
     }
 }

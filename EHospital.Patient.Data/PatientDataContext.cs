@@ -35,35 +35,14 @@ namespace EHospital.Patient.Data
         public DbSet<PatientInfo> Patients { get; set; }
 
         /// <summary>
-        /// Adds new PatientInfo to the collection
-        /// </summary>
-        /// <param name="patient">PatientInfo instance</param>
-        public void AddPatient(PatientInfo patient)
-        {
-            Patients.Add(patient);
-            SaveChanges();
-        }
-
-       
-        /// <summary>
-        /// Gets PatientInfo object with specified Id
-        /// </summary>
-        /// <param name="id">Id of Patient to look for</param>
-        /// <returns>Patient with requested Id or NULL if not found</returns>
-        public PatientInfo GetPatient(int id)
-        {
-            return Patients.FirstOrDefault(p => p.Id == id);
-        }
-
-        /// <summary>
-        /// Gets all Patiens from database
+        /// Gets all Patients from database
         /// </summary>
         /// <returns>Collection of PatientInfos</returns>
         public IEnumerable<PatientInfo> GetPatients()
         {
             return Patients.ToList();
         }
-
+        
         /// <summary>
         /// Saves changes in the collections
         /// Calls DbContext base SaveChanges Method

@@ -8,9 +8,5 @@ namespace EHospital.Patient.Data
     public interface IPatientData
     {
         IEnumerable<PatientInfo> GetPatients();
-        PatientInfo GetPatient(int id);
-        void AddPatient(PatientInfo patient);
-
-        void Save();
     }
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using EHospital.Excel.Model;
 using OfficeOpenXml;
+using System.Reflection;
 using Microsoft.AspNetCore.Hosting.Internal;
 
 namespace EHospital.Excel.BusinessLogic
@@ -23,6 +24,7 @@ namespace EHospital.Excel.BusinessLogic
 
         /// <summary>
         /// Gets the collection of PatientInfos existing in the database.
+        /// Left for testing puproses only.
         /// </summary>
         /// <returns> The collection of PatientView objects.</returns>
         public IEnumerable<PatientInfo> GetPatients()
@@ -32,6 +34,10 @@ namespace EHospital.Excel.BusinessLogic
             return patients;
         }
 
+        /// <summary>
+        /// Generates Byte Array containing Excel File
+        /// </summary>
+        /// <returns>Byte Array</returns>
         public Byte[] CreateReport()
         {
             ExcelPackage pck = new ExcelPackage();
@@ -79,6 +85,4 @@ namespace EHospital.Excel.BusinessLogic
             return reportAsBytes;
         }
     }
-
-
 }
