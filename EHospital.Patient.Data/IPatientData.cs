@@ -1,9 +1,7 @@
-﻿using EHospital.Excel.Model;
-using System;
+﻿using EHospital.Reports.Model;
 using System.Collections.Generic;
-using System.Text;
 
-namespace EHospital.Patient.Data
+namespace EHospital.Reports.Data
 {
     public interface IPatientData
     {

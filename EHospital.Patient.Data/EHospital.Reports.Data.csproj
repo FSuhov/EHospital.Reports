@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EHospital.Excel.Model\EHospital.Excel.Model.csproj" />
+    <ProjectReference Include="..\EHospital.Excel.Model\EHospital.Reports.Model.csproj" />
   </ItemGroup>
 
 </Project>

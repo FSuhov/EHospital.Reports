@@ -1,16 +1,12 @@
-﻿using EHospital.Patient.Data;
+﻿using EHospital.Reports.Data;
 using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Globalization;
 using System.Linq;
-using System.Text;
-using EHospital.Excel.Model;
+using EHospital.Reports.Model;
 using OfficeOpenXml;
-using System.Reflection;
-using Microsoft.AspNetCore.Hosting.Internal;
 
-namespace EHospital.Excel.BusinessLogic
+
+namespace EHospital.Reports.BusinessLogic
 {
     public class ExcelService : IExcelService
     {
@@ -24,7 +20,7 @@ namespace EHospital.Excel.BusinessLogic
 
         /// <summary>
         /// Gets the collection of PatientInfos existing in the database.
-        /// Left for testing puproses only.
+        /// Left for testing purposes only.
         /// </summary>
         /// <returns> The collection of PatientView objects.</returns>
         public IEnumerable<PatientInfo> GetPatients()

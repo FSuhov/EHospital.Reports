@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using EHospital.Excel.BusinessLogic;
-using EHospital.Patient.Data;
+using EHospital.Reports.BusinessLogic;
+using EHospital.Reports.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace EHospital.Excel.WebAPI
+namespace EHospital.Reports.WebAPI
 {
     public class Startup
     {

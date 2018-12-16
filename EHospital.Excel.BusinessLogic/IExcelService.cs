@@ -1,9 +1,8 @@
-﻿using EHospital.Excel.Model;
+﻿using EHospital.Reports.Model;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace EHospital.Excel.BusinessLogic
+namespace EHospital.Reports.BusinessLogic
 {
     public interface IExcelService
     {

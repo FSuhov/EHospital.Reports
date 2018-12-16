@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>EHospital.Reports.BusinessLogic</AssemblyName>
+    <RootNamespace>EHospital.Reports.BusinessLogic</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EHospital.Excel.Model\EHospital.Excel.Model.csproj" />
-    <ProjectReference Include="..\EHospital.Patient.Data\EHospital.Patient.Data.csproj" />
+    <ProjectReference Include="..\EHospital.Excel.Model\EHospital.Reports.Model.csproj" />
+    <ProjectReference Include="..\EHospital.Patient.Data\EHospital.Reports.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

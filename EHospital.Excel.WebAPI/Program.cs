@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace EHospital.Excel.WebAPI
+namespace EHospital.Reports.WebAPI
 {
     public class Program
     {

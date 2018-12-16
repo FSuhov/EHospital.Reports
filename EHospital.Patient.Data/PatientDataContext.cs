@@ -1,10 +1,9 @@
 ﻿using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
-using System.Net.Mime;
-using EHospital.Excel.Model;
+using EHospital.Reports.Model;
 
-namespace EHospital.Patient.Data
+namespace EHospital.Reports.Data
 {
     public class PatientDataContext : DbContext, IPatientData
     {

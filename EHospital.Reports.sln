@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EHospital.Excel.WebAPI", "EHospital.Excel.WebAPI\EHospital.Excel.WebAPI.csproj", "{919FE20F-EBA2-4ED7-B40E-9B597B82605C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EHospital.Reports.WebAPI", "EHospital.Excel.WebAPI\EHospital.Reports.WebAPI.csproj", "{919FE20F-EBA2-4ED7-B40E-9B597B82605C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EHospital.Excel.Model", "EHospital.Excel.Model\EHospital.Excel.Model.csproj", "{C66FEFD4-C7FE-40A2-AAF9-D4CF01755A7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EHospital.Reports.Model", "EHospital.Excel.Model\EHospital.Reports.Model.csproj", "{C66FEFD4-C7FE-40A2-AAF9-D4CF01755A7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EHospital.Patient.Data", "EHospital.Patient.Data\EHospital.Patient.Data.csproj", "{64CF950A-E00B-4BBB-A159-760F72B74A80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EHospital.Reports.Data", "EHospital.Patient.Data\EHospital.Reports.Data.csproj", "{64CF950A-E00B-4BBB-A159-760F72B74A80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EHospital.Excel.BusinessLogic", "EHospital.Excel.BusinessLogic\EHospital.Excel.BusinessLogic.csproj", "{34BECB6D-219F-48B4-9D58-690E7EF6B78A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EHospital.Reports.BusinessLogic", "EHospital.Excel.BusinessLogic\EHospital.Reports.BusinessLogic.csproj", "{34BECB6D-219F-48B4-9D58-690E7EF6B78A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

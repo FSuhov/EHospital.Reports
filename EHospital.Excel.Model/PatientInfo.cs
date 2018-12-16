@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EHospital.Excel.Model
+namespace EHospital.Reports.Model
 {
     /// <summary>
     /// Represents a model of Patient as stored in Database
