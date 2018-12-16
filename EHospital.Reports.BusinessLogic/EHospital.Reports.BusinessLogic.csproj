@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EHospital.Excel.Model\EHospital.Reports.Model.csproj" />
-    <ProjectReference Include="..\EHospital.Patient.Data\EHospital.Reports.Data.csproj" />
+    <ProjectReference Include="..\EHospital.Reports.Model\EHospital.Reports.Model.csproj" />
+    <ProjectReference Include="..\EHospital.Reports.Data\EHospital.Reports.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

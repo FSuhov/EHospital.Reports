@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EHospital.Excel.BusinessLogic\EHospital.Reports.BusinessLogic.csproj" />
-    <ProjectReference Include="..\EHospital.Patient.Data\EHospital.Reports.Data.csproj" />
+    <ProjectReference Include="..\EHospital.Reports.BusinessLogic\EHospital.Reports.BusinessLogic.csproj" />
+    <ProjectReference Include="..\EHospital.Reports.Data\EHospital.Reports.Data.csproj" />
   </ItemGroup>
 
 </Project>
